@@ -37,11 +37,13 @@ https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0U
 
 https://www.amazon.com/gp/product/B00OGYXN8C/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1 x 1
 
-https://www.amazon.com/Oak-Pine-Digital-Helicopter-Airplane-Project/dp/B07RT2Z4Z8/ref=sr_1_6?dchild=1&keywords=mg995+servo&qid=1586037978&sr=8-6 x 1
+https://www.amazon.com/Oak-Pine-Digital-Helicopter-Airplane-Project/dp/B07RT2Z4Z8/ref=sr_1_6?dchild=1&keywords=mg995+servo&qid=1586037978&sr=8-6 x 0.5
 
 https://www.amazon.com/gp/product/B07HQB95VY/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1 x 1
 
 https://www.vitalitymedical.com/resuscitator-bag-with-nasal-oral-mask.html x 1
+
+https://www.amazon.com/gp/product/B07HMKW45H/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1 x .25
 
 
 You can switch to compatible components
