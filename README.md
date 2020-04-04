@@ -12,19 +12,17 @@ yield about 12 breaths per minute.  You get about 500ml of air which is average 
 
 assembly, should take about 15 minutes
 
-step 1) connect the servo brackets to the mp995 servo
+step 1) connect usb port of arduino to computer and load the program
 
 step 2) connect the LCD sheild to the Arduino Uno R3
 
-step 3) connect the servo ground to Uno's ground, servo power to Uno's 5v, servo signal to pin 2
+step 3) connect the servo brackets to the mp995 servo with a circular servo arm
 
-step 4) mount the servo mount to the wood box
+step 4) connect the servo ground to Uno's ground, servo power to Uno's 5v, servo signal to pin 2
 
-step 5) connect usb port of arduino to computer and load the program
+step 5) mount the servo assembly mount to the wood box in the middle on one of the side
 
-step 6) disconnect the arduino completely from computer
-
-step 7) place the MPR bag inside the wood box over the servo arm, loop the inhale/exhale lines to the handle holes of the wood box
+step 6) place the MPR bag inside the wood box over the servo arm, loop the inhale/exhale lines to the handle holes of the wood box to secure
 
 
 to turn on 
@@ -37,7 +35,7 @@ to adjust
 * press left/right button to adjust pressure/speed of the arm 1-3, default is 1 which is the slowest
 * press select to pause/run the ventilator
 
-lcd display
+LCD display
 * there is a count on the right lower corner to show you how many presses the ventilator did since last reset
 * there is a step count on the right upper corner to show you 0-45 degress the servo is at during each press
 
