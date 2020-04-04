@@ -20,7 +20,7 @@ step 3) connect the servo brackets to the mp995 servo with a circular servo arm
 
 step 4) connect the servo ground to Uno's ground, servo power to Uno's 5v, servo signal to pin 2
 
-step 5) mount the servo assembly mount to the wood box in the middle on one of the side
+step 5) mount the servo assembly mount to the wood box in the bottom mid side section of the wood box with long screws.
 
 step 6) place the MPR bag inside the wood box over the servo arm, loop the inhale/exhale lines to the handle holes of the wood box to secure
 
