@@ -24,7 +24,7 @@ step 5) connect usb port of arduino to computer and load the program
 
 step 6) disconnect the arduino completely from computer
 
-step 7) place  the MPR bag inside the wood box over the servo arm
+step 7) place the MPR bag inside the wood box over the servo arm, loop the inhale/exhale lines to the handle holes of the wood box
 
 
 to turn on 
