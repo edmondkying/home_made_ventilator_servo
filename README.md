@@ -31,7 +31,7 @@ to turn on
 
 step 1) connect 12vdc power supply to Uno's power plug
 
-Parts: (total should be about $65 USD)
+Parts: (total should be about $50 USD)
 
 https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_4?crid=ODLFM80RSUBZ&dchild=1&keywords=arduino+uno+r3&qid=1586038192&sprefix=ard%2Caps%2C156&sr=8-4 x 1
 
