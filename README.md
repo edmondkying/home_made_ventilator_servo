@@ -1,6 +1,6 @@
 # home_made_ventilator_servo
 Home made ventilator, servo arm presses MPR bag
-Home made ventilator made with off the shelf parts for less than $50 with no 3D printed parts whatsoever. Just these parts and 5 minutes.
+Home made ventilator made with off the shelf parts for less than $50 with no 3D printed parts whatsoever. Just these parts and 15 minutes.
 
 
 This is a home made ventilator. It is very crude but it works okay on a test dummy and a lung tester.  The servo arm presses down on
