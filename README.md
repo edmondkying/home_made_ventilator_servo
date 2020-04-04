@@ -31,6 +31,16 @@ to turn on
 
 step 1) connect 12vdc power supply to Uno's power plug
 
+to adjust
+
+* press up/down button to adjust breath interval time between 2 seconds and up, default is 5 seconds
+* press left/right button to adjust pressure/speed of the arm 1-3, default is 1 which is the slowest
+* press select to pause/run the ventilator
+
+lcd display
+* there is a count on the right lower corner to show you how many presses the ventilator did since last reset
+* there is a step count on the right upper corner to show you 0-45 degress the servo is at during each press
+
 Parts: (total should be about $50 USD)
 
 https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_4?crid=ODLFM80RSUBZ&dchild=1&keywords=arduino+uno+r3&qid=1586038192&sprefix=ard%2Caps%2C156&sr=8-4 x 1
@@ -46,5 +56,5 @@ https://www.vitalitymedical.com/resuscitator-bag-with-nasal-oral-mask.html x 1
 https://www.amazon.com/gp/product/B07HMKW45H/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1 x .25
 
 
-You can switch to compatible components
+You can switch to compatible components at will
 
