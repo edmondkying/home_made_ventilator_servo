@@ -33,7 +33,7 @@ step 1) connect 12vdc power supply to Uno's power plug
 
 Parts: (total should be about $65 USD)
 
-https://www.amazon.com/gp/product/B073DYD97C x 1
+https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_4?crid=ODLFM80RSUBZ&dchild=1&keywords=arduino+uno+r3&qid=1586038192&sprefix=ard%2Caps%2C156&sr=8-4 x 1
 
 https://www.amazon.com/gp/product/B00OGYXN8C/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1 x 1
 
