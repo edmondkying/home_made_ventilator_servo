@@ -31,7 +31,7 @@ int pos = 0;                                           // motor position 0 to 45
 void setup()
 {
  lcd.begin(16, 2);
- myservo.attach(2);                                    // use pin 2 instead of pin 9 since pin 9 is used by the lcd
+ myservo.attach(2);                                    // use pin 2 instead of pin 9 since pin 9 is used by the LCD
  lcd.setCursor(0,0);                                   // display pressure text
  lcd.print("Pressure:");
  lcd.setCursor(0,1);                                   // display interval text
@@ -48,7 +48,7 @@ void loop()
  else {
    delay(100);
  }
- display_status();                                     // display the lcd values
+ display_status();                                     // display settings and status on LCD
 }
 
 void press_mpr_bag()
@@ -73,6 +73,9 @@ void press_mpr_bag()
      delay(((6-pressure)*20)-20);                     // servo speed based on pressure of 1-3, so 3 is quickest
    }
    cnt = cnt + 1;                                     // increase press count by 1
+   if (cnt > 99) {                                    // reset count to 1 when over 99 because the LCD display don't have enough space for it
+    cnt = 1;
+   }
    }
  else {
    if (elasped >= inhale_interval * 0.75) {           // .75 way point of a breath, release the MPR bag
