@@ -23,7 +23,8 @@ int adc_key_in  = 0;
 int pressure = 2;                                      // can be 1 to 3, 1 is slowest, 3 is fastest
 float inhale_interval = 5000;                          // 3 seconds is the shortest interval per breath, human does 12 breaths per minute or about 5 seconds
 char runmode = 'R';                                    // R = run the ventilator, S is stop
-long lastran = 0;                                      // time of last ran, used to calculate delay
+long lastpressed = 0;                                  // time of last ran, used to calculate delay
+int elasped = 0;                                       // time elapsed since last pressed
 int cnt = 0;                                           // number of press applied since reset
 int pos = 0;                                           // motor position 0 to 45 degrees
 
@@ -52,9 +53,9 @@ void loop()
 
 void press_mpr_bag()
 {
- 
- if (millis() - lastran >= inhale_interval) {          // if last press has elasped the inhale_interval, press again
-   lastran = millis();                                 // last press ran by milli seconds since reset
+ elasped = millis() - lastpressed;                     // elapsed time is current time minus last pressed
+ if (elasped >= inhale_interval) {                     // if last press has elasped the inhale_interval, then its time to press again
+   lastpressed = millis();                             // last press ran by milli seconds since reset
    for (pos = 0; pos <= 45; pos += 1) {                // goes from 0 degrees to 45 degrees
      // in steps of 1 degree
      myservo.write(pos);                               // tell servo to go to position in variable 'pos'
@@ -74,10 +75,12 @@ void press_mpr_bag()
    cnt = cnt + 1;                                     // increase press count by 1
    }
  else {
-   pos = 0;
-   myservo.write(pos);                                // reset the servo back to 0 degrees for exhale
-   lcd.setCursor(14,0);
-   lcd.print("00");
+   if (elasped >= inhale_interval * 0.75) {           // .75 way point of a breath, release the MPR bag
+     pos = 0;
+     myservo.write(pos);                              // reset the servo back to 0 degrees for exhale
+     lcd.setCursor(14,0);
+     lcd.print("00");
+   }
  }
  
 }
@@ -129,12 +132,12 @@ void process_LCD_button()
      {
      if (runmode == 'S') {
        runmode = 'R';
-       lastran = millis();
+       lastpressed = millis();
      }
      else if (runmode == 'R') {
        runmode = 'S';
      }
-     delay(100);
+     delay(100);                                       // this is needed because this button is ultra sensitive to duration of time
      break;
      }
      case btnNONE:
@@ -146,7 +149,7 @@ void process_LCD_button()
 
 void display_status()
 {
- lcd.setCursor(10,0);                                  // display pressure setting
+ lcd.setCursor(9,0);                                   // display pressure setting
  lcd.print(pressure);
  
  lcd.setCursor(12,0);                                  // display run mode
