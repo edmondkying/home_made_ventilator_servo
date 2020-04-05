@@ -36,8 +36,8 @@ to adjust
 * press select to pause/run the ventilator
 
 LCD display
-* there is a count on the right lower corner to show you how many presses the ventilator did since last reset
-* there is a step count on the right upper corner to show you 0-45 degress the servo is at during each press
+* there is a count on the right upper corner to show you how many presses the ventilator did since last reset
+* there is a step count on the right lower corner to show you 0-45 degress the servo is at during each press
 
 Parts: (total should be about $50 USD)
 
