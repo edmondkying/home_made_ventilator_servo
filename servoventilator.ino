@@ -21,7 +21,7 @@ int adc_key_in  = 0;
 #define btnNONE   5
 
 int pressure = 2;                                      // can be 1 to 3, 1 is slowest, 3 is fastest
-float inhale_interval = 5000;                          // 3 seconds is the shortest interval per breath, human does 12 breaths per second or about 5 seconds
+float inhale_interval = 5000;                          // 3 seconds is the shortest interval per breath, human does 12 breaths per minute or about 5 seconds
 char runmode = 'R';                                    // R = run the ventilator, S is stop
 long lastran = 0;                                      // time of last ran, used to calculate delay
 int cnt = 0;                                           // number of press applied since reset
@@ -45,7 +45,7 @@ void loop()
    press_mpr_bag();                                    // press the MPR bag with servo
  }
  else {
-   delay(200);
+   delay(100);
  }
  display_status();                                     // display the lcd values
 }
@@ -74,7 +74,8 @@ void press_mpr_bag()
    cnt = cnt + 1;                                     // increase press count by 1
    }
  else {
-   myservo.write(0);                                  // reset the servo back to 0 degrees for exhale
+   pos = 0;
+   myservo.write(pos);                                // reset the servo back to 0 degrees for exhale
    lcd.setCursor(14,0);
    lcd.print("00");
  }
