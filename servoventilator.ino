@@ -60,20 +60,20 @@ void press_mpr_bag()
      // in steps of 1 degree
      myservo.write(pos);                               // tell servo to go to position in variable 'pos'
      if (pos < 10) {
-       lcd.setCursor(14,0);
+       lcd.setCursor(14,1);
        lcd.print("0");
-       lcd.setCursor(15,0);
+       lcd.setCursor(15,1);
        lcd.print(pos);
      }
      else {
-       lcd.setCursor(14,0);
+       lcd.setCursor(14,1);
        lcd.print(pos);
      }
      lcd.print(pos);
      delay(((6-pressure)*20)-20);                     // servo speed based on pressure of 1-3, so 3 is quickest
    }
    cnt = cnt + 1;                                     // increase press count by 1
-   if (cnt > 99) {                                    // reset count to 1 when over 99 because the LCD display don't have enough space for it
+   if (cnt > 999) {                                   // reset count to 1 when over 999 because the LCD display don't have enough space for it
     cnt = 1;
    }
    }
@@ -81,7 +81,7 @@ void press_mpr_bag()
    if (elasped >= inhale_interval * 0.75) {           // .75 way point of a breath, release the MPR bag
      pos = 0;
      myservo.write(pos);                              // reset the servo back to 0 degrees for exhale
-     lcd.setCursor(14,0);
+     lcd.setCursor(14,1);
      lcd.print("00");
    }
  }
@@ -155,12 +155,12 @@ void display_status()
  lcd.setCursor(9,0);                                   // display pressure setting
  lcd.print(pressure);
  
- lcd.setCursor(12,0);                                  // display run mode
+ lcd.setCursor(11,0);                                  // display run mode
  lcd.print(runmode);
  
  lcd.setCursor(9,1);                                   // display interval setting
  lcd.print(inhale_interval/1000);
 
- lcd.setCursor(14,1);                                  // display press count       
+ lcd.setCursor(13,0);                                  // display press count       
  lcd.print(cnt);
 }
