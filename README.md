@@ -8,7 +8,7 @@ the MPR bag and releases.  Similar to if you're pressing the MPR bag by hand.
 
 
 Please understand that this is not made for professional use. It is a desperate measure for desperate time. Sometimes having one is better than NOTHING at all. Please do not blame me for anything, just trying to do what I can. With 5 seconds for inhale interval will
-yield about 12 breaths per minute.  You get about 500ml of air which is average size breath. So just adjust the time for more or less air. You can use a lung tester to test amount of air and pressure.
+yield about 12 breaths per minute.  You get about 500ml of air which is average size breath. So just adjust the time for more or less air. You can use a lung tester to test amount of air and pressure.  My next revision is to add an air pressure sensor so that if the user take a small weak breath, it will trigger the servo to press the MPR bag while the system will still maintain the press interval if no breath is detected.
 
 assembly, should take about 15 minutes
 
