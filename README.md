@@ -22,7 +22,7 @@ step 4) connect the servo ground to Uno's ground, servo power to Uno's 5v, servo
 
 step 5) mount the servo assembly mount to the wood box in the bottom mid side section of the wood box with long screws. You can use two servos if you want, just run them thru a Y servo cable.  But one is okay I think.
 
-step 6) place the MPR bag inside the wood box over the servo arm, loop the inhale/exhale lines to the handle holes of the wood box to secure
+step 6) place the MPR bag inside the wood box over the servo arm, loop the inhale/exhale lines to the handle holes of the wood box to secure.  You might need to cut the holes bigger.
 
 
 to turn on 
