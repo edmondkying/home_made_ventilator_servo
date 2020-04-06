@@ -18,7 +18,7 @@ step 2) connect the LCD sheild to the Arduino Uno R3
 
 step 3) connect the servo brackets to the mp995 servo with a circular servo arm
 
-step 4) connect the servo ground to Uno's ground, servo power to Uno's 5v, servo signal to pin 2
+step 4) connect the servo ground to Uno's ground, servo power to Uno's 5v, servo signal to pin 2, mount on side of the box
 
 step 5) mount the servo assembly mount to the wood box in the bottom mid side section of the wood box with long screws. You can use two servos if you want, just run them thru a Y servo cable.  But one is okay I think.
 
