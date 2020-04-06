@@ -39,19 +39,21 @@ LCD display
 * there is a count on the right upper corner to show you how many presses the ventilator did since last reset
 * there is a step count on the right lower corner to show you 0-45 degress the servo is at during each press
 
-Parts: (total should be about $50 USD)
+Parts: (total should be about $75 USD)
 
 https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_4?crid=ODLFM80RSUBZ&dchild=1&keywords=arduino+uno+r3&qid=1586038192&sprefix=ard%2Caps%2C156&sr=8-4 x 1
 
 https://www.amazon.com/gp/product/B00OGYXN8C/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1 x 1
 
-https://www.amazon.com/Oak-Pine-Digital-Helicopter-Airplane-Project/dp/B07RT2Z4Z8/ref=sr_1_6?dchild=1&keywords=mg995+servo&qid=1586037978&sr=8-6 x 0.5
+https://www.amazon.com/ANNIMOS-Digital-Voltage-Stainless-Waterproof/dp/B07KTS4L94/ref=sr_1_5?crid=2TKGQOU3ESP6I&dchild=1&keywords=high%2Btorque%2Bservo&qid=1586200090&sprefix=high%2Btor%2Caps%2C164&sr=8-5&th=1
 
 https://www.amazon.com/gp/product/B07HQB95VY/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1 x 1
 
 https://www.vitalitymedical.com/resuscitator-bag-with-nasal-oral-mask.html x 1
 
 https://www.amazon.com/gp/product/B07HMKW45H/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1 x .25
+
+some wires
 
 
 You can switch to compatible components at will
